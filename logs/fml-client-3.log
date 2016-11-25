@@ -1,0 +1,1454 @@
+[07:30:38] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[07:30:38] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[07:30:38] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_03-Ubuntu, running on Linux:amd64:4.4.0-21-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[07:30:38] [main/DEBUG] [FML/]: Java classpath at launch is /home/sen_cas/.minecraft/libraries/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forge-1.7.10-10.13.4.1558-1.7.10.jar:/home/sen_cas/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar:/home/sen_cas/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar:/home/sen_cas/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar:/home/sen_cas/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar:/home/sen_cas/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar:/home/sen_cas/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar:/home/sen_cas/.minecraft/libraries/com/google/guava/guava/17.0/guava-17.0.jar:/home/sen_cas/.minecraft/libraries/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/home/sen_cas/.minecraft/libraries/com/mojang/netty/1.6/netty-1.6.jar:/home/sen_cas/.minecraft/libraries/com/mojang/realms/1.3.5/realms-1.3.5.jar:/home/sen_cas/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/sen_cas/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/home/sen_cas/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/sen_cas/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/home/sen_cas/.minecraft/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/home/sen_cas/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar:/home/sen_cas/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar:/home/sen_cas/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar:/home/sen_cas/.minecraft/libraries/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar:/home/sen_cas/.minecraft/libraries/com/google/guava/guava/15.0/guava-15.0.jar:/home/sen_cas/.minecraft/libraries/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/home/sen_cas/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/sen_cas/.minecraft/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/sen_cas/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar:/home/sen_cas/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar:/home/sen_cas/.minecraft/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/home/sen_cas/.minecraft/libraries/com/mojang/authlib/1.5.21/authlib-1.5.21.jar:/home/sen_cas/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar:/home/sen_cas/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar:/home/sen_cas/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar:/home/sen_cas/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar:/home/sen_cas/.minecraft/libraries/tv/twitch/twitch/5.16/twitch-5.16.jar:/home/sen_cas/.minecraft/versions/1.7.10/1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Java library path at launch is /home/sen_cas/.minecraft/versions/1.7.10-Forge10.13.4.1558-1.7.10/1.7.10-Forge10.13.4.1558-1.7.10-natives-132658518952
+[07:30:38] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[07:30:38] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[07:30:38] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[07:30:38] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[07:30:38] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[07:30:38] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[07:30:38] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[07:30:38] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[07:30:38] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/sen_cas/.minecraft
+[07:30:38] [main/DEBUG] [FML/]: Discovering coremods
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Not found coremod data in Baubles-1.7.10-1.0.1.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.1.93-universal.jar
+[07:30:38] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.1.93-universal.jar
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy ComputerCraft-Mod-1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Not found coremod data in ComputerCraft-Mod-1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy malisiscore-1.7.10-0.14.3.jar
+[07:30:38] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in malisiscore-1.7.10-0.14.3.jar, it will be examined later for regular @Mod instances
+[07:30:38] [main/DEBUG] [FML/]: Instantiating coremod class MalisisCorePlugin
+[07:30:38] [main/WARN] [FML/]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[07:30:38] [main/DEBUG] [FML/]: Added access transformer class net.malisis.core.asm.MalisisCoreAccessTransformer to enqueued access transformers
+[07:30:38] [main/DEBUG] [FML/]: Enqueued coremod MalisisCorePlugin
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy malisisdoors-1.7.10-1.13.2.jar
+[07:30:38] [main/DEBUG] [FML/]: Not found coremod data in malisisdoors-1.7.10-1.13.2.jar
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy Reis-Minimap-Mod-1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Not found coremod data in Reis-Minimap-Mod-1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy Reptile-Mod-1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Not found coremod data in Reptile-Mod-1.7.10.jar
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumcraft-Mod-1.7.10.jar
+[07:30:38] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumcraft-Mod-1.7.10.jar, it will be examined later for regular @Mod instances
+[07:30:38] [main/DEBUG] [FML/]: Instantiating coremod class DepLoader
+[07:30:38] [main/WARN] [FML/]: The coremod thaumcraft.codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[07:30:38] [main/DEBUG] [FML/]: Enqueued coremod DepLoader
+[07:30:38] [main/DEBUG] [FML/]: Examining for coremod candidacy TooManyItems-Mod-Forge-1.7.10.jar
+[07:30:38] [main/TRACE] [FML/]: Adding TooManyItems-Mod-Forge-1.7.10.jar to the list of known coremods, it will not be examined again
+[07:30:38] [main/DEBUG] [FML/]: Instantiating coremod class TMIForgeLoader
+[07:30:38] [main/DEBUG] [FML/]: The coremod TMIForgeLoader requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[07:30:38] [main/DEBUG] [FML/]: Enqueued coremod TMIForgeLoader
+[07:30:38] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:30:38] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[07:30:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:30:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:30:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:38] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[07:30:38] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[07:30:38] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[07:30:38] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[07:30:38] [main/DEBUG] [FML/]: Injection complete
+[07:30:38] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[07:30:38] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[07:30:39] [main/DEBUG] [FML/]: Read 527 binary patches
+[07:30:40] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[07:30:40] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[07:30:40] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[07:30:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:40] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[07:30:40] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[07:30:40] [main/DEBUG] [FML/]: Injection complete
+[07:30:40] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[07:30:40] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[07:30:40] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[07:30:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:40] [main/DEBUG] [FML/]: Injecting coremod DepLoader {thaumcraft.codechicken.core.launch.DepLoader} class transformers
+[07:30:40] [main/DEBUG] [FML/]: Injection complete
+[07:30:40] [main/DEBUG] [FML/]: Running coremod plugin for DepLoader {thaumcraft.codechicken.core.launch.DepLoader}
+[07:30:40] [main/DEBUG] [FML/]: Running coremod plugin DepLoader
+[07:30:40] [main/DEBUG] [FML/]: Coremod plugin class DepLoader run successfully
+[07:30:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:40] [main/DEBUG] [FML/]: Injecting coremod TMIForgeLoader {TMIForgeLoader} class transformers
+[07:30:40] [main/TRACE] [FML/]: Registering transformer TMIForgeTransformer
+[07:30:40] [main/DEBUG] [FML/]: Injection complete
+[07:30:40] [main/DEBUG] [FML/]: Running coremod plugin for TMIForgeLoader {TMIForgeLoader}
+[07:30:40] [main/DEBUG] [FML/]: Running coremod plugin TMIForgeLoader
+[07:30:40] [main/DEBUG] [FML/]: Coremod plugin class TMIForgeLoader run successfully
+[07:30:40] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[07:30:40] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[07:30:40] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[07:30:40] [main/DEBUG] [FML/]: Loaded 5 rules from AccessTransformer config file malisiscore_at.cfg
+[07:30:40] [main/DEBUG] [FML/]: Validating minecraft
+[07:30:41] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[07:30:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:30:41] [main/DEBUG] [FML/]: Injecting coremod MalisisCorePlugin {net.malisis.core.asm.MalisisCorePlugin} class transformers
+[07:30:41] [main/TRACE] [FML/]: Registering transformer net.malisis.core.util.chunkcollision.ChunkCollisionTransformer
+[07:30:41] [main/INFO] [malisiscore/]: [ChunkCollisionTransformer] Hook registered for net.minecraft.world.World
+[07:30:41] [main/INFO] [malisiscore/]: [ChunkCollisionTransformer] Hook registered for net.minecraft.world.World
+[07:30:41] [main/INFO] [malisiscore/]: [ChunkCollisionTransformer] Hook registered for net.minecraft.item.ItemBlock
+[07:30:41] [main/INFO] [malisiscore/]: [ChunkCollisionTransformer] Hook registered for net.minecraft.network.NetHandlerPlayServer
+[07:30:41] [main/TRACE] [FML/]: Registering transformer net.malisis.core.util.chunkblock.ChunkBlockTransformer
+[07:30:41] [main/INFO] [malisiscore/]: [ChunkBlockTransformer] Hook registered for net.minecraft.world.chunk.Chunk
+[07:30:41] [main/DEBUG] [FML/]: Injection complete
+[07:30:41] [main/DEBUG] [FML/]: Running coremod plugin for MalisisCorePlugin {net.malisis.core.asm.MalisisCorePlugin}
+[07:30:41] [main/DEBUG] [FML/]: Running coremod plugin MalisisCorePlugin
+[07:30:41] [main/DEBUG] [FML/]: Coremod plugin class MalisisCorePlugin run successfully
+[07:30:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[07:30:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[07:30:41] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[07:30:41] [main/INFO] [malisiscore/]: Found hooks for net.minecraft.world.World (ahb)
+[07:30:42] [main/INFO] [STDOUT/]: [TMIForgeTransformer:transform:18]: [TMI] Rewriting class bex / net.minecraft.client.gui.inventory.GuiContainer
+[07:30:43] [main/INFO] [malisiscore/]: Found hooks for net.minecraft.item.ItemBlock (abh)
+[07:30:45] [Client thread/INFO] [STDOUT/]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[07:30:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.069s
+[07:30:46] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 11/25/16 7:30 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 4.4.0-21-generic
+	Java Version: 1.8.0_03-Ubuntu, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 64715088 bytes (61 MB) / 193241088 bytes (184 MB) up to 1060372480 bytes (1011 MB)
+	JVM Flags: 5 total; -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 11.2.0' Renderer: 'Mesa DRI Intel(R) Sandybridge Desktop '
+[07:30:46] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[07:30:46] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[07:30:46] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[07:30:46] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[07:30:46] [Client thread/DEBUG] [FML/]: File /home/sen_cas/.minecraft/config/injectedDependencies.json not found. No dependencies injected
+[07:30:46] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, TMIForgeContainer]
+[07:30:46] [Client thread/ERROR] [FML/]: Unable to determine registrant mod for TooManyItems. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:55) [EventBus.class:?]
+	at TMIForgeContainer.<init>(TMIForgeContainer.java:35) [TMIForgeContainer.class:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.8.0_03-Ubuntu]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:1.8.0_03-Ubuntu]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:1.8.0_03-Ubuntu]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [?:1.8.0_03-Ubuntu]
+	at java.lang.Class.newInstance(Class.java:442) [?:1.8.0_03-Ubuntu]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:340) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_03-Ubuntu]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_03-Ubuntu]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_03-Ubuntu]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_03-Ubuntu]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[07:30:46] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forge-1.7.10-10.13.4.1558-1.7.10.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/google/guava/guava/17.0/guava-17.0.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/mojang/netty/1.6/netty-1.6.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/mojang/realms/1.3.5/realms-1.3.5.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/java3d/vecmath/1.3.1/vecmath-1.3.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/google/guava/guava/15.0/guava-15.0.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/commons-codec/commons-codec/1.9/commons-codec-1.9.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/com/mojang/authlib/1.5.21/authlib-1.5.21.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/libraries/tv/twitch/twitch/5.16/twitch-5.16.jar, examining for mod candidates
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/sen_cas/.minecraft/versions/1.7.10/1.7.10.jar, examining for mod candidates
+[07:30:46] [Client thread/TRACE] [FML/]: Skipping known library file /home/sen_cas/.minecraft/mods/malisiscore-1.7.10-0.14.3.jar
+[07:30:46] [Client thread/TRACE] [FML/]: Skipping known library file /home/sen_cas/.minecraft/mods/Thaumcraft-Mod-1.7.10.jar
+[07:30:46] [Client thread/TRACE] [FML/]: Skipping known library file /home/sen_cas/.minecraft/mods/TooManyItems-Mod-Forge-1.7.10.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[07:30:46] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[07:30:46] [Client thread/INFO] [FML/]: Searching /home/sen_cas/.minecraft/mods for mods
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file ComputerCraft-Mod-1.7.10.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file malisiscore-1.7.10-0.14.3.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file malisisdoors-1.7.10-1.13.2.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file Reis-Minimap-Mod-1.7.10.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file Reptile-Mod-1.7.10.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file Thaumcraft-Mod-1.7.10.jar
+[07:30:46] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker TooManyItems-Mod-Forge-1.7.10.jar
+[07:30:46] [Client thread/INFO] [FML/]: Also searching /home/sen_cas/.minecraft/mods/1.7.10 for mods
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file Baubles-1.7.10-1.0.1.10.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.1.93-universal.jar
+[07:30:46] [Client thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10.jar for potential mods
+[07:30:46] [Client thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10.jar appears to be missing an mcmod.info file
+[07:30:47] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[07:30:47] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[07:30:47] [Client thread/DEBUG] [FML/]: Examining file asm-all-5.0.3.jar for potential mods
+[07:30:47] [Client thread/DEBUG] [FML/]: The mod container asm-all-5.0.3.jar appears to be missing an mcmod.info file
+[07:30:47] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[07:30:47] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[07:30:48] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[07:30:48] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[07:30:48] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[07:30:48] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[07:30:48] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[07:30:48] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[07:30:51] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[07:30:51] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[07:30:51] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[07:30:51] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[07:30:51] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[07:30:51] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[07:30:51] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[07:30:51] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[07:30:51] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[07:30:51] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file netty-1.6.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container netty-1.6.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[07:30:52] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[07:30:52] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file guava-15.0.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container guava-15.0.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.1.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.21.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.21.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[07:30:53] [Client thread/DEBUG] [FML/]: Examining file 1.7.10.jar for potential mods
+[07:30:53] [Client thread/DEBUG] [FML/]: The mod container 1.7.10.jar appears to be missing an mcmod.info file
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[07:30:54] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file ComputerCraft-Mod-1.7.10.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file ComputerCraft-Mod-1.7.10.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (dan200.computercraft.ComputerCraft) - loading
+[07:30:54] [Client thread/TRACE] [ComputerCraft/]: Parsed dependency info : [] [] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file malisiscore-1.7.10-0.14.3.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file malisiscore-1.7.10-0.14.3.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.malisis.core.MalisisCore) - loading
+[07:30:54] [Client thread/TRACE] [malisiscore/]: Parsed dependency info : [] [] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file malisisdoors-1.7.10-1.13.2.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file malisisdoors-1.7.10-1.13.2.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.malisis.doors.MalisisDoors) - loading
+[07:30:54] [Client thread/TRACE] [malisisdoors/]: Parsed dependency info : [malisiscore] [malisiscore] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file Reis-Minimap-Mod-1.7.10.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Reis-Minimap-Mod-1.7.10.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (reifnsk.minimap.ReiMinimapForge) - loading
+[07:30:54] [Client thread/TRACE] [ReiMinimap/]: Parsed dependency info : [] [] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file Reptile-Mod-1.7.10.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Reptile-Mod-1.7.10.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.reptiles.common.Reptiles) - loading
+[07:30:54] [Client thread/TRACE] [reptilemod/]: Parsed dependency info : [] [] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file Thaumcraft-Mod-1.7.10.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Thaumcraft-Mod-1.7.10.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (thaumcraft.common.Thaumcraft) - loading
+[07:30:54] [Client thread/TRACE] [Thaumcraft/]: Parsed dependency info : [Baubles@[1.0.1.10,), Forge@[10.13.2,)] [Forge@[10.13.2,), Baubles@[1.0.1.10,)] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file Baubles-1.7.10-1.0.1.10.jar for potential mods
+[07:30:54] [Client thread/TRACE] [FML/]: Located mcmod.info file in file Baubles-1.7.10-1.0.1.10.jar
+[07:30:54] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (baubles.common.Baubles) - loading
+[07:30:54] [Client thread/TRACE] [Baubles/]: Parsed dependency info : [Forge@[10.13.2,)] [Forge@[10.13.2,)] []
+[07:30:54] [Client thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.1.93-universal.jar for potential mods
+[07:30:54] [Client thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.1.93-universal.jar appears to be missing an mcmod.info file
+[07:30:54] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 11 mods to load
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.filesystem (owned by ComputerCraft providing ComputerCraft|API|FileSystem) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.redstone (owned by ComputerCraft providing ComputerCraft|API|Redstone) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.media (owned by ComputerCraft providing ComputerCraft|API|Media) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.peripheral (owned by ComputerCraft providing ComputerCraft|API|Peripheral) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.lua (owned by ComputerCraft providing ComputerCraft|API|Lua) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.permissions (owned by ComputerCraft providing ComputerCraft|API|Permissions) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in Baubles
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api.turtle (owned by ComputerCraft providing ComputerCraft|API|Turtle) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API thaumcraft.api (owned by Thaumcraft providing Thaumcraft|API) embedded in Thaumcraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found API dan200.computercraft.api (owned by ComputerCraft providing ComputerCraft|API) embedded in ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Peripheral: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Lua: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Redstone: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|FileSystem: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Permissions: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API Thaumcraft|API: owner: Thaumcraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Media: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/DEBUG] [FML/]: Creating API container dummy for API ComputerCraft|API|Turtle: owner: ComputerCraft, dependents: []
+[07:30:54] [Client thread/TRACE] [FML/]: Received a system property request ''
+[07:30:54] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[07:30:54] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[07:30:54] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[07:30:54] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[07:30:54] [Client thread/DEBUG] [ComputerCraft/]: Enabling mod ComputerCraft
+[07:30:54] [Client thread/DEBUG] [FML/]: Found translations in ComputerCraft-Mod-1.7.10.jar [en_US]
+[07:30:54] [Client thread/DEBUG] [malisiscore/]: Enabling mod malisiscore
+[07:30:54] [Client thread/DEBUG] [FML/]: Found translations in malisiscore-1.7.10-0.14.3.jar [en_US, ru_RU, zh_CN]
+[07:30:54] [Client thread/DEBUG] [malisisdoors/]: Enabling mod malisisdoors
+[07:30:54] [Client thread/DEBUG] [FML/]: Found translations in malisisdoors-1.7.10-1.13.2.jar [cs_CZ, de_DE, en_US, es_AR, fr_FR, ru_RU, zh_CN]
+[07:30:54] [Client thread/DEBUG] [ReiMinimap/]: Enabling mod ReiMinimap
+[07:30:54] [Client thread/DEBUG] [reptilemod/]: Enabling mod reptilemod
+[07:30:54] [Client thread/DEBUG] [FML/]: Found translations in Reptile-Mod-1.7.10.jar [ru_RU, en_US]
+[07:30:54] [Client thread/DEBUG] [Thaumcraft/]: Enabling mod Thaumcraft
+[07:30:55] [Client thread/DEBUG] [FML/]: Found translations in Thaumcraft-Mod-1.7.10.jar [ca_ES, cs_CZ, de_DE, en_US, es_AR, es_ES, es_MX, es_UY, es_VE, et_EE, fi_FI, fr_FR, it_IT, ja_JP, ko_KR, nl_NL, pt_BR, pt_PT, ru_RU, sv_SE, zh_CN, zh_TW]
+[07:30:55] [Client thread/DEBUG] [Baubles/]: Enabling mod Baubles
+[07:30:55] [Client thread/DEBUG] [FML/]: Found translations in Baubles-1.7.10-1.0.1.10.jar [ar_SA, cs_CZ, da_DK, de_DE, en_US, et_EE, fi_FI, fr_FR, it_IT, ko_KR, nl_NL, no_NO, pl_PL, pt_BR, ru_RU, zh_CN, zh_TW]
+[07:30:55] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[07:30:55] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[07:30:55] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[07:30:55] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[07:30:55] [Client thread/DEBUG] [FML/]: Mod sorting data
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft(ComputerCraft:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	malisiscore(MalisisCore:1.7.10-0.14.3): malisiscore-1.7.10-0.14.3.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	malisisdoors(Malisis' Doors:1.7.10-1.13.2): malisisdoors-1.7.10-1.13.2.jar (required-after:malisiscore)
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ReiMinimap(Rei's Minimap:1.7.10): Reis-Minimap-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	reptilemod(Reptile Mod:1.7.10): Reptile-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	Baubles(Baubles:1.0.1.10): Baubles-1.7.10-1.0.1.10.jar (required-after:Forge@[10.13.2,);)
+[07:30:55] [Client thread/DEBUG] [FML/]: 	Thaumcraft(Thaumcraft:4.2.3.5): Thaumcraft-Mod-1.7.10.jar (required-after:Forge@[10.13.2,);required-after:Baubles@[1.0.1.10,))
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|Peripheral(API: ComputerCraft|API|Peripheral:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	Baubles|API(API: Baubles|API:1.0.1.10): Baubles-1.7.10-1.0.1.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|Lua(API: ComputerCraft|API|Lua:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|Redstone(API: ComputerCraft|API|Redstone:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|FileSystem(API: ComputerCraft|API|FileSystem:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|Permissions(API: ComputerCraft|API|Permissions:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	Thaumcraft|API(API: Thaumcraft|API:4.2.2.0): Thaumcraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API(API: ComputerCraft|API:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|Media(API: ComputerCraft|API|Media:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/DEBUG] [FML/]: 	ComputerCraft|API|Turtle(API: ComputerCraft|API|Turtle:1.75): ComputerCraft-Mod-1.7.10.jar ()
+[07:30:55] [Client thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.93-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[07:30:55] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[07:30:55] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[07:30:55] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.003s
+[07:30:55] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[07:30:55] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[07:30:55] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[07:30:55] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[07:30:55] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, TooManyItems, ComputerCraft, malisiscore, malisisdoors, ReiMinimap, reptilemod, Thaumcraft, Baubles] at CLIENT
+[07:30:55] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, TooManyItems, ComputerCraft, malisiscore, malisisdoors, ReiMinimap, reptilemod, Thaumcraft, Baubles] at SERVER
+[07:30:55] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[07:30:55] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.548s
+[07:30:55] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[07:30:55] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[07:30:55] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[07:30:55] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[07:30:55] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[07:30:55] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.024s
+[07:30:55] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLConstructionEvent to mod TooManyItems
+[07:30:55] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLConstructionEvent to mod TooManyItems
+[07:30:55] [Client thread/DEBUG] [FML/]: Bar Step: Construction - TooManyItems took 0.001s
+[07:30:55] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLConstructionEvent to mod ComputerCraft
+[07:30:56] [Client thread/TRACE] [FML/ComputerCraft]: Mod ComputerCraft is using network checker : Accepting version 1.75
+[07:30:56] [Client thread/TRACE] [FML/ComputerCraft]: Testing mod ComputerCraft to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/ComputerCraft]: The mod ComputerCraft accepts its own version (1.75)
+[07:30:56] [Client thread/DEBUG] [FML/ComputerCraft]: Attempting to inject @SidedProxy classes into ComputerCraft
+[07:30:56] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLConstructionEvent to mod ComputerCraft
+[07:30:56] [Client thread/DEBUG] [FML/]: Bar Step: Construction - ComputerCraft took 0.281s
+[07:30:56] [Client thread/TRACE] [malisiscore/malisiscore]: Sending event FMLConstructionEvent to mod malisiscore
+[07:30:56] [Client thread/TRACE] [FML/malisiscore]: Mod malisiscore is using network checker : Accepting version 1.7.10-0.14.3
+[07:30:56] [Client thread/TRACE] [FML/malisiscore]: Testing mod malisiscore to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/malisiscore]: The mod malisiscore accepts its own version (1.7.10-0.14.3)
+[07:30:56] [Client thread/DEBUG] [FML/malisiscore]: Attempting to inject @SidedProxy classes into malisiscore
+[07:30:56] [Client thread/TRACE] [malisiscore/malisiscore]: Sent event FMLConstructionEvent to mod malisiscore
+[07:30:56] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MalisisCore took 0.033s
+[07:30:56] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLConstructionEvent to mod malisisdoors
+[07:30:56] [Client thread/TRACE] [FML/malisisdoors]: Mod malisisdoors is using network checker : Accepting version 1.7.10-1.13.2
+[07:30:56] [Client thread/TRACE] [FML/malisisdoors]: Testing mod malisisdoors to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/malisisdoors]: The mod malisisdoors accepts its own version (1.7.10-1.13.2)
+[07:30:56] [Client thread/DEBUG] [FML/malisisdoors]: Attempting to inject @SidedProxy classes into malisisdoors
+[07:30:56] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLConstructionEvent to mod malisisdoors
+[07:30:56] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Malisis' Doors took 0.046s
+[07:30:56] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLConstructionEvent to mod ReiMinimap
+[07:30:56] [Client thread/TRACE] [FML/ReiMinimap]: Mod ReiMinimap is using network checker : Accepting version 1.7.10
+[07:30:56] [Client thread/TRACE] [FML/ReiMinimap]: Testing mod ReiMinimap to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/ReiMinimap]: The mod ReiMinimap accepts its own version (1.7.10)
+[07:30:56] [Client thread/DEBUG] [FML/ReiMinimap]: Attempting to inject @SidedProxy classes into ReiMinimap
+[07:30:56] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLConstructionEvent to mod ReiMinimap
+[07:30:56] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Rei's Minimap took 0.084s
+[07:30:56] [Client thread/TRACE] [reptilemod/reptilemod]: Sending event FMLConstructionEvent to mod reptilemod
+[07:30:56] [Client thread/TRACE] [FML/reptilemod]: Mod reptilemod is using network checker : Accepting version 1.7.10
+[07:30:56] [Client thread/TRACE] [FML/reptilemod]: Testing mod reptilemod to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/reptilemod]: The mod reptilemod accepts its own version (1.7.10)
+[07:30:56] [Client thread/DEBUG] [FML/reptilemod]: Attempting to inject @SidedProxy classes into reptilemod
+[07:30:56] [Client thread/TRACE] [reptilemod/reptilemod]: Sent event FMLConstructionEvent to mod reptilemod
+[07:30:56] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Reptile Mod took 0.122s
+[07:30:56] [Client thread/TRACE] [Baubles/Baubles]: Sending event FMLConstructionEvent to mod Baubles
+[07:30:56] [Client thread/TRACE] [FML/Baubles]: Mod Baubles is using network checker : Accepting version 1.0.1.10
+[07:30:56] [Client thread/TRACE] [FML/Baubles]: Testing mod Baubles to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/Baubles]: The mod Baubles accepts its own version (1.0.1.10)
+[07:30:56] [Client thread/DEBUG] [FML/Baubles]: Attempting to inject @SidedProxy classes into Baubles
+[07:30:56] [Client thread/TRACE] [Baubles/Baubles]: Sent event FMLConstructionEvent to mod Baubles
+[07:30:56] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Baubles took 0.020s
+[07:30:56] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLConstructionEvent to mod Thaumcraft
+[07:30:56] [Client thread/TRACE] [FML/Thaumcraft]: Mod Thaumcraft is using network checker : Accepting version 4.2.3.5
+[07:30:56] [Client thread/TRACE] [FML/Thaumcraft]: Testing mod Thaumcraft to verify it accepts its own version in a remote connection
+[07:30:56] [Client thread/TRACE] [FML/Thaumcraft]: The mod Thaumcraft accepts its own version (4.2.3.5)
+[07:30:56] [Client thread/DEBUG] [FML/Thaumcraft]: Attempting to inject @SidedProxy classes into Thaumcraft
+[07:30:57] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLConstructionEvent to mod Thaumcraft
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Thaumcraft took 0.616s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 1.778s
+[07:30:57] [Client thread/DEBUG] [FML/]: Mod signature data
+[07:30:57] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[07:30:57] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[07:30:57] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		TooManyItems	(TooManyItems	1.7.10)	minecraft.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		ComputerCraft	(ComputerCraft	1.75)	ComputerCraft-Mod-1.7.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		malisiscore	(MalisisCore	1.7.10-0.14.3)	malisiscore-1.7.10-0.14.3.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		malisisdoors	(Malisis' Doors	1.7.10-1.13.2)	malisisdoors-1.7.10-1.13.2.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		ReiMinimap	(Rei's Minimap	1.7.10)	Reis-Minimap-Mod-1.7.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		reptilemod	(Reptile Mod	1.7.10)	Reptile-Mod-1.7.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		Baubles	(Baubles	1.0.1.10)	Baubles-1.7.10-1.0.1.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: 		Thaumcraft	(Thaumcraft	4.2.3.5)	Thaumcraft-Mod-1.7.10.jar
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.005s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ComputerCraft took 0.004s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MalisisCore took 0.002s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Malisis' Doors took 0.002s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Rei's Minimap took 0.001s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Reptile Mod took 0.001s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Thaumcraft took 0.010s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Baubles took 0.001s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.033s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.033s
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.062s
+[07:30:57] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[07:30:57] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[07:30:57] [Client thread/DEBUG] [Malisis' Doors/]: Mod Malisis' Doors is missing a pack.mcmeta file, substituting a dummy one
+[07:30:57] [Client thread/DEBUG] [Rei's Minimap/]: Mod Rei's Minimap is missing a pack.mcmeta file, substituting a dummy one
+[07:30:57] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[07:30:57] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[07:30:57] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[07:30:57] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[07:30:57] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[07:30:57] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.004s
+[07:30:57] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[07:30:57] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[07:30:57] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[07:30:57] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[07:30:57] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.062s
+[07:30:57] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLPreInitializationEvent to mod TooManyItems
+[07:30:57] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLPreInitializationEvent to mod TooManyItems
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - TooManyItems took 0.001s
+[07:30:57] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLPreInitializationEvent to mod ComputerCraft
+[07:30:57] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLPreInitializationEvent to mod ComputerCraft
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - ComputerCraft took 0.237s
+[07:30:57] [Client thread/TRACE] [malisiscore/malisiscore]: Sending event FMLPreInitializationEvent to mod malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Found hooks for net.minecraft.world.chunk.Chunk (apx)
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 5 in channel malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering SyncerMessage for Packet with discriminator 6 in channel malisiscore
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
+[07:30:57] [Client thread/INFO] [malisiscore/malisiscore]: Registering VanishingDiamondFrameMessage for Packet with discriminator 3 in channel malisisdoors
+[07:30:57] [Client thread/TRACE] [malisiscore/malisiscore]: Sent event FMLPreInitializationEvent to mod malisiscore
+[07:30:57] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MalisisCore took 0.230s
+[07:30:57] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLPreInitializationEvent to mod malisisdoors
+[07:30:58] [Client thread/INFO] [malisiscore/malisisdoors]: Replaced ItemDoor by DoorItem in ShapedOreRecipe
+[07:30:58] [Client thread/INFO] [malisiscore/malisisdoors]: Replaced ItemDoor by DoorItem in StatCrafting
+[07:30:58] [Client thread/INFO] [malisiscore/malisisdoors]: Replaced ItemDoor by DoorItem in StatCrafting
+[07:30:58] [Client thread/INFO] [malisiscore/malisisdoors]: Replaced ItemDoor by DoorItem in ShapedOreRecipe
+[07:30:58] [Client thread/INFO] [malisiscore/malisisdoors]: Replaced ItemDoor by DoorItem in StatCrafting
+[07:30:58] [Client thread/INFO] [malisiscore/malisisdoors]: Replaced ItemDoor by DoorItem in StatCrafting
+[07:30:58] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLPreInitializationEvent to mod malisisdoors
+[07:30:58] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Malisis' Doors took 0.761s
+[07:30:58] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLPreInitializationEvent to mod ReiMinimap
+[07:30:58] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLPreInitializationEvent to mod ReiMinimap
+[07:30:58] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Rei's Minimap took 0.001s
+[07:30:58] [Client thread/TRACE] [reptilemod/reptilemod]: Sending event FMLPreInitializationEvent to mod reptilemod
+[07:30:58] [Client thread/TRACE] [reptilemod/reptilemod]: Sent event FMLPreInitializationEvent to mod reptilemod
+[07:30:58] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Reptile Mod took 0.107s
+[07:30:58] [Client thread/TRACE] [Baubles/Baubles]: Sending event FMLPreInitializationEvent to mod Baubles
+[07:30:58] [Client thread/TRACE] [Baubles/Baubles]: Sent event FMLPreInitializationEvent to mod Baubles
+[07:30:58] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Baubles took 0.042s
+[07:30:58] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLPreInitializationEvent to mod Thaumcraft
+[07:30:59] [Client thread/DEBUG] [FML/Thaumcraft]: Method thaumcraft.common.tiles.TileCrucible.fill(Lnet/minecraftforge/common/util/ForgeDirection;Lnet/minecraftforge/fluids/FluidStack;Z)I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[07:31:00] [Client thread/DEBUG] [FML/Thaumcraft]: Method thaumcraft.common.entities.golems.EntityGolemBase.updateCarried()V: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[07:31:01] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLPreInitializationEvent to mod Thaumcraft
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Thaumcraft took 2.725s
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 4.171s
+[07:31:01] [Client thread/INFO] [FML/]: Applying holder lookups
+[07:31:01] [Client thread/INFO] [FML/]: Holder lookups applied
+[07:31:01] [Client thread/INFO] [FML/]: Injecting itemstacks
+[07:31:01] [Client thread/INFO] [FML/]: Itemstack injection complete
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[07:31:01] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[07:31:01] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[07:31:01] [Thread-7/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[07:31:01] [Thread-7/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.344s
+[07:31:01] [Thread-7/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.008s
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.005s
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.011s
+[07:31:01] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.014s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0.170s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.022s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0.002s
+[07:31:02] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0.069s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0.048s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0.000s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.002s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.009s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0.021s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.000s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.002s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0.012s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0.001s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 0.344s
+[07:31:02] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[07:31:02] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[07:31:02] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[07:31:02] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.001s
+[07:31:02] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[07:31:02] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[07:31:02] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLInitializationEvent to mod TooManyItems
+[07:31:02] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLInitializationEvent to mod TooManyItems
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - TooManyItems took 0.001s
+[07:31:02] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLInitializationEvent to mod ComputerCraft
+[07:31:02] [Client thread/DEBUG] [FML/ComputerCraft]: Bar Finished: Loading Resource - FixedWidthFontRenderer took 0.011s
+[07:31:02] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLInitializationEvent to mod ComputerCraft
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - ComputerCraft took 0.079s
+[07:31:02] [Client thread/TRACE] [malisiscore/malisiscore]: Sending event FMLInitializationEvent to mod malisiscore
+[07:31:02] [Client thread/TRACE] [malisiscore/malisiscore]: Sent event FMLInitializationEvent to mod malisiscore
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - MalisisCore took 0.030s
+[07:31:02] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLInitializationEvent to mod malisisdoors
+[07:31:02] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLInitializationEvent to mod malisisdoors
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Malisis' Doors took 0.001s
+[07:31:02] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLInitializationEvent to mod ReiMinimap
+[07:31:02] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLInitializationEvent to mod ReiMinimap
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Rei's Minimap took 0.124s
+[07:31:02] [Client thread/TRACE] [reptilemod/reptilemod]: Sending event FMLInitializationEvent to mod reptilemod
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Komodo as reptilemod.Komodo
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Savanna as reptilemod.Savanna
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Griseus as reptilemod.Griseus
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Perentie as reptilemod.Perentie
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Lace as reptilemod.Lace
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Croc as reptilemod.Croc
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity DesertTortoise as reptilemod.DesertTortoise
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity LittleTurtle as reptilemod.LittleTurtle
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity LargeCroc as reptilemod.LargeCroc
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Iguana as reptilemod.Iguana
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Tortoise as reptilemod.Tortoise
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Alligator as reptilemod.Alligator
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Chameleon as reptilemod.Chameleon
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity CrocMonitor as reptilemod.CrocMonitor
+[07:31:02] [Client thread/TRACE] [FML/reptilemod]: Automatically registered mod reptilemod entity Megalania as reptilemod.Megalania
+[07:31:02] [Client thread/TRACE] [reptilemod/reptilemod]: Sent event FMLInitializationEvent to mod reptilemod
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Reptile Mod took 0.013s
+[07:31:02] [Client thread/TRACE] [Baubles/Baubles]: Sending event FMLInitializationEvent to mod Baubles
+[07:31:02] [Client thread/TRACE] [Baubles/Baubles]: Sent event FMLInitializationEvent to mod Baubles
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Baubles took 0.015s
+[07:31:02] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLInitializationEvent to mod Thaumcraft
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity SpecialItem as Thaumcraft.SpecialItem
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PermanentItem as Thaumcraft.PermanentItem
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity FollowItem as Thaumcraft.FollowItem
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity AspectOrb as Thaumcraft.AspectOrb
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity FallingTaint as Thaumcraft.FallingTaint
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Alumentum as Thaumcraft.Alumentum
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PrimalOrb as Thaumcraft.PrimalOrb
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity FrostShard as Thaumcraft.FrostShard
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Dart as Thaumcraft.Dart
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PrimalArrow as Thaumcraft.PrimalArrow
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PechBlast as Thaumcraft.PechBlast
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchOrb as Thaumcraft.EldritchOrb
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity BottleTaint as Thaumcraft.BottleTaint
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity GolemOrb as Thaumcraft.GolemOrb
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity ShockOrb as Thaumcraft.ShockOrb
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity ExplosiveOrb as Thaumcraft.ExplosiveOrb
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Ember as Thaumcraft.Ember
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Golem as Thaumcraft.Golem
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TravelingTrunk as Thaumcraft.TravelingTrunk
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity BrainyZombie as Thaumcraft.BrainyZombie
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity GiantBrainyZombie as Thaumcraft.GiantBrainyZombie
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Wisp as Thaumcraft.Wisp
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Firebat as Thaumcraft.Firebat
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Pech as Thaumcraft.Pech
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity MindSpider as Thaumcraft.MindSpider
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchGuardian as Thaumcraft.EldritchGuardian
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchWarden as Thaumcraft.EldritchWarden
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistKnight as Thaumcraft.CultistKnight
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistCleric as Thaumcraft.CultistCleric
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistLeader as Thaumcraft.CultistLeader
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistPortal as Thaumcraft.CultistPortal
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchGolem as Thaumcraft.EldritchGolem
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchCrab as Thaumcraft.EldritchCrab
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity InhabitedZombie as Thaumcraft.InhabitedZombie
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity ThaumSlime as Thaumcraft.ThaumSlime
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSpider as Thaumcraft.TaintSpider
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Taintacle as Thaumcraft.Taintacle
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintacleTiny as Thaumcraft.TaintacleTiny
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSpore as Thaumcraft.TaintSpore
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSwarmer as Thaumcraft.TaintSwarmer
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSwarm as Thaumcraft.TaintSwarm
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedChicken as Thaumcraft.TaintedChicken
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedCow as Thaumcraft.TaintedCow
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedCreeper as Thaumcraft.TaintedCreeper
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedPig as Thaumcraft.TaintedPig
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedSheep as Thaumcraft.TaintedSheep
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedVillager as Thaumcraft.TaintedVillager
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintacleGiant as Thaumcraft.TaintacleGiant
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity SpecialItemGrate as Thaumcraft.SpecialItemGrate
+[07:31:02] [Client thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity GolemBobber as Thaumcraft.GolemBobber
+[07:31:02] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLInitializationEvent to mod Thaumcraft
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Thaumcraft took 0.477s
+[07:31:02] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.740s
+[07:31:02] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[07:31:03] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[07:31:03] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.009s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[07:31:03] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[07:31:03] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[07:31:03] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[07:31:03] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod TooManyItems
+[07:31:03] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sending event IMCEvent to mod TooManyItems
+[07:31:03] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sent event IMCEvent to mod TooManyItems
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - TooManyItems took 0.001s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ComputerCraft
+[07:31:03] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event IMCEvent to mod ComputerCraft
+[07:31:03] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event IMCEvent to mod ComputerCraft
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ComputerCraft took 0.001s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod malisiscore
+[07:31:03] [Client thread/TRACE] [malisiscore/malisiscore]: Sending event IMCEvent to mod malisiscore
+[07:31:03] [Client thread/TRACE] [malisiscore/malisiscore]: Sent event IMCEvent to mod malisiscore
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - MalisisCore took 0.002s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod malisisdoors
+[07:31:03] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sending event IMCEvent to mod malisisdoors
+[07:31:03] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sent event IMCEvent to mod malisisdoors
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Malisis' Doors took 0.001s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ReiMinimap
+[07:31:03] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event IMCEvent to mod ReiMinimap
+[07:31:03] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event IMCEvent to mod ReiMinimap
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Rei's Minimap took 0.002s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod reptilemod
+[07:31:03] [Client thread/TRACE] [reptilemod/reptilemod]: Sending event IMCEvent to mod reptilemod
+[07:31:03] [Client thread/TRACE] [reptilemod/reptilemod]: Sent event IMCEvent to mod reptilemod
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Reptile Mod took 0.000s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Baubles
+[07:31:03] [Client thread/TRACE] [Baubles/Baubles]: Sending event IMCEvent to mod Baubles
+[07:31:03] [Client thread/TRACE] [Baubles/Baubles]: Sent event IMCEvent to mod Baubles
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Baubles took 0.002s
+[07:31:03] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Thaumcraft
+[07:31:03] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event IMCEvent to mod Thaumcraft
+[07:31:03] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event IMCEvent to mod Thaumcraft
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Thaumcraft took 0.001s
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.020s
+[07:31:03] [Client thread/INFO] [FML/]: Injecting itemstacks
+[07:31:03] [Client thread/INFO] [FML/]: Itemstack injection complete
+[07:31:03] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[07:31:03] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.001s
+[07:31:03] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[07:31:03] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[07:31:03] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[07:31:03] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.002s
+[07:31:03] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLPostInitializationEvent to mod TooManyItems
+[07:31:03] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLPostInitializationEvent to mod TooManyItems
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - TooManyItems took 0.000s
+[07:31:03] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLPostInitializationEvent to mod ComputerCraft
+[07:31:03] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLPostInitializationEvent to mod ComputerCraft
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - ComputerCraft took 0.000s
+[07:31:03] [Client thread/TRACE] [malisiscore/malisiscore]: Sending event FMLPostInitializationEvent to mod malisiscore
+[07:31:03] [Client thread/TRACE] [malisiscore/malisiscore]: Sent event FMLPostInitializationEvent to mod malisiscore
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - MalisisCore took 0.000s
+[07:31:03] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLPostInitializationEvent to mod malisisdoors
+[07:31:03] [Client thread/INFO] [malisiscore/malisisdoors]: Loading texture and data for Digital-7 Mono
+[07:31:03] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLPostInitializationEvent to mod malisisdoors
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Malisis' Doors took 0.562s
+[07:31:03] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLPostInitializationEvent to mod ReiMinimap
+[07:31:03] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLPostInitializationEvent to mod ReiMinimap
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Rei's Minimap took 0.000s
+[07:31:03] [Client thread/TRACE] [reptilemod/reptilemod]: Sending event FMLPostInitializationEvent to mod reptilemod
+[07:31:03] [Client thread/INFO] [FML/reptilemod]: *** Checking for monitor biomes
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding ForestHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleEdge for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest Hills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Roofed Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Magical Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Flower Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau F M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Jungle for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Beach for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding MushroomIslandShore for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Plains for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna Plateau for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Sunflower Plains for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Desert M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa (Bryce) for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]: *** Checking for tortoise biomes
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Desert for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding DesertHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Jungle for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleEdge for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna Plateau for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Desert M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Jungle M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleEdge M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna Plateau M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa (Bryce) for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau F M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau F for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]: *** Checking for turtle biomes
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding ForestHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleEdge for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest Hills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Roofed Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Magical Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Flower Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau F M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Jungle for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Swampland for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Swampland M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]: *** Checking for lizard biomes
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding ForestHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleEdge for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest Hills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Roofed Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Magical Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Flower Forest for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau F M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding DesertHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleHills for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Jungle M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding JungleEdge M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Birch Forest Hills M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Roofed Forest M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna Plateau M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Jungle for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding MushroomIsland for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding MushroomIslandShore for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Plains for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Savanna Plateau for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Sunflower Plains for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Desert M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa (Bryce) for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Mesa Plateau M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]: *** Checking for crocodilian biomes
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Beach for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding MushroomIslandShore for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Swampland for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding Swampland M for spawning
+[07:31:03] [Client thread/INFO] [FML/reptilemod]:   >>> Adding MushroomIsland for spawning
+[07:31:03] [Client thread/TRACE] [reptilemod/reptilemod]: Sent event FMLPostInitializationEvent to mod reptilemod
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Reptile Mod took 0.012s
+[07:31:03] [Client thread/TRACE] [Baubles/Baubles]: Sending event FMLPostInitializationEvent to mod Baubles
+[07:31:03] [Client thread/TRACE] [Baubles/Baubles]: Sent event FMLPostInitializationEvent to mod Baubles
+[07:31:03] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Baubles took 0.001s
+[07:31:03] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLPostInitializationEvent to mod Thaumcraft
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Found potion array with a size of 32
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Extending Potion.potionTypes array to 40
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionFluxTaint with id 31
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionVisExhaust with id 32
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionInfectiousVisExhaust with id 33
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionUnnaturalHunger with id 34
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionWarpWard with id 35
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionDeathGaze with id 36
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionBlurredVision with id 37
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionSunScorned with id 38
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Initializing PotionThaumarhia with id 39
+[07:31:03] [Client thread/INFO] [THAUMCRAFT/Thaumcraft]: Adding entities to MFR safari net blacklist.
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Zombie] to spawn champion mobs at level [0]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Spider] to spawn champion mobs at level [0]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Blaze] to spawn champion mobs at level [0]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Enderman] to spawn champion mobs at level [0]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Skeleton] to spawn champion mobs at level [0]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Witch] to spawn champion mobs at level [1]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Thaumcraft.EldritchCrab] to spawn champion mobs at level [0]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Thaumcraft.Taintacle] to spawn champion mobs at level [2]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Thaumcraft.Wisp] to spawn champion mobs at level [1]
+[07:31:04] [Client thread/WARN] [THAUMCRAFT/Thaumcraft]: Whitelisting [Thaumcraft.InhabitedZombie] to spawn champion mobs at level [3]
+[07:31:04] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLPostInitializationEvent to mod Thaumcraft
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Thaumcraft took 0.703s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 1.283s
+[07:31:04] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[07:31:04] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[07:31:04] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[07:31:04] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s
+[07:31:04] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[07:31:04] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   21: RecipeEntry("Before", UNKNOWN, )
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   20: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   19: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   18: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   17: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   16: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   15: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("computercraft:pocket_computer_upgrade", SHAPELESS, dan200.computercraft.shared.pocket.recipes.PocketComputerUpgradeRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapelessorenbt", SHAPELESS, thaumcraft.common.lib.crafting.ShapelessNBTOreRecipe) After: forge:shapelessore
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("forge:robearmordye", SHAPELESS, thaumcraft.common.items.armor.RecipesRobeArmorDyes) After: forge:shapelessorenbt
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("computercraft:printout", SHAPELESS, dan200.computercraft.shared.media.recipes.PrintoutRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("computercraft:disk", SHAPELESS, dan200.computercraft.shared.media.recipes.DiskRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:voidrobearmordye", SHAPELESS, thaumcraft.common.items.armor.RecipesVoidRobeArmorDyes) After: forge:robearmordye
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("computercraft:impostor", SHAPED, dan200.computercraft.shared.util.ImpostorRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("computercraft:turtle", SHAPED, dan200.computercraft.shared.turtle.recipes.TurtleRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("computercraft:impostor_shapeless", SHAPELESS, dan200.computercraft.shared.util.ImpostorShapelessRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("computercraft:turtle_upgrade", SHAPED, dan200.computercraft.shared.turtle.recipes.TurtleUpgradeRecipe) After: minecraft:shapeless
+[07:31:04] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[07:31:04] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[07:31:04] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.020s
+[07:31:04] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLLoadCompleteEvent to mod TooManyItems
+[07:31:04] [Client thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLLoadCompleteEvent to mod TooManyItems
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - TooManyItems took 0.001s
+[07:31:04] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLLoadCompleteEvent to mod ComputerCraft
+[07:31:04] [Client thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLLoadCompleteEvent to mod ComputerCraft
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - ComputerCraft took 0.001s
+[07:31:04] [Client thread/TRACE] [malisiscore/malisiscore]: Sending event FMLLoadCompleteEvent to mod malisiscore
+[07:31:04] [Client thread/TRACE] [malisiscore/malisiscore]: Sent event FMLLoadCompleteEvent to mod malisiscore
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - MalisisCore took 0.000s
+[07:31:04] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLLoadCompleteEvent to mod malisisdoors
+[07:31:04] [Client thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLLoadCompleteEvent to mod malisisdoors
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Malisis' Doors took 0.000s
+[07:31:04] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLLoadCompleteEvent to mod ReiMinimap
+[07:31:04] [Client thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLLoadCompleteEvent to mod ReiMinimap
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Rei's Minimap took 0.000s
+[07:31:04] [Client thread/TRACE] [reptilemod/reptilemod]: Sending event FMLLoadCompleteEvent to mod reptilemod
+[07:31:04] [Client thread/TRACE] [reptilemod/reptilemod]: Sent event FMLLoadCompleteEvent to mod reptilemod
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Reptile Mod took 0.000s
+[07:31:04] [Client thread/TRACE] [Baubles/Baubles]: Sending event FMLLoadCompleteEvent to mod Baubles
+[07:31:04] [Client thread/TRACE] [Baubles/Baubles]: Sent event FMLLoadCompleteEvent to mod Baubles
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Baubles took 0.001s
+[07:31:04] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLLoadCompleteEvent to mod Thaumcraft
+[07:31:04] [Client thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLLoadCompleteEvent to mod Thaumcraft
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Thaumcraft took 0.001s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.026s
+[07:31:04] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[07:31:04] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[07:31:04] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[07:31:04] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 11 mods
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.004s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.003s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ComputerCraft took 0.003s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MalisisCore took 0.001s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Malisis' Doors took 0.001s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Rei's Minimap took 0.000s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Reptile Mod took 0.000s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Thaumcraft took 0.004s
+[07:31:04] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Baubles took 0.001s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.798s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.412s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.063s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.092s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 1.307s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.034s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0.001s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/Digital-7 Mono_1 took 0.000s
+[07:31:05] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.006s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.423s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.013s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.025s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.032s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/items.png took 0.469s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 1.817s
+[07:31:06] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[07:31:06] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[07:31:06] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[07:31:06] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[07:31:06] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[07:31:06] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 2.167s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 2.167s
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 2.185s
+[07:31:06] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[07:31:06] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[07:31:06] [Client thread/DEBUG] [Malisis' Doors/]: Mod Malisis' Doors is missing a pack.mcmeta file, substituting a dummy one
+[07:31:06] [Client thread/DEBUG] [Rei's Minimap/]: Mod Rei's Minimap is missing a pack.mcmeta file, substituting a dummy one
+[07:31:06] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[07:31:06] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[07:31:06] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 20.152s
+[07:31:06] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[07:31:07] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[07:31:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[07:31:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[07:31:11] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[07:31:11] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[07:31:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[07:31:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[07:31:11] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLServerAboutToStartEvent to mod TooManyItems
+[07:31:11] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLServerAboutToStartEvent to mod TooManyItems
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - TooManyItems took 0.000s
+[07:31:11] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerAboutToStartEvent to mod ComputerCraft
+[07:31:11] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerAboutToStartEvent to mod ComputerCraft
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - ComputerCraft took 0.000s
+[07:31:11] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLServerAboutToStartEvent to mod malisiscore
+[07:31:11] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLServerAboutToStartEvent to mod malisiscore
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - MalisisCore took 0.000s
+[07:31:11] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLServerAboutToStartEvent to mod malisisdoors
+[07:31:11] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLServerAboutToStartEvent to mod malisisdoors
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Malisis' Doors took 0.000s
+[07:31:11] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLServerAboutToStartEvent to mod ReiMinimap
+[07:31:11] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLServerAboutToStartEvent to mod ReiMinimap
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Rei's Minimap took 0.000s
+[07:31:11] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLServerAboutToStartEvent to mod reptilemod
+[07:31:11] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLServerAboutToStartEvent to mod reptilemod
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Reptile Mod took 0.000s
+[07:31:11] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLServerAboutToStartEvent to mod Baubles
+[07:31:11] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLServerAboutToStartEvent to mod Baubles
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Baubles took 0.000s
+[07:31:11] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLServerAboutToStartEvent to mod Thaumcraft
+[07:31:11] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLServerAboutToStartEvent to mod Thaumcraft
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Thaumcraft took 0.000s
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.004s
+[07:31:11] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[07:31:11] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[07:31:11] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[07:31:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[07:31:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[07:31:11] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[07:31:11] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[07:31:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[07:31:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.003s
+[07:31:11] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLModIdMappingEvent to mod TooManyItems
+[07:31:11] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLModIdMappingEvent to mod TooManyItems
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TooManyItems took 0.000s
+[07:31:11] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLModIdMappingEvent to mod ComputerCraft
+[07:31:11] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLModIdMappingEvent to mod ComputerCraft
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ComputerCraft took 0.001s
+[07:31:11] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLModIdMappingEvent to mod malisiscore
+[07:31:11] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLModIdMappingEvent to mod malisiscore
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - MalisisCore took 0.000s
+[07:31:11] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLModIdMappingEvent to mod malisisdoors
+[07:31:11] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLModIdMappingEvent to mod malisisdoors
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Malisis' Doors took 0.000s
+[07:31:11] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLModIdMappingEvent to mod ReiMinimap
+[07:31:11] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLModIdMappingEvent to mod ReiMinimap
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Rei's Minimap took 0.000s
+[07:31:11] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLModIdMappingEvent to mod reptilemod
+[07:31:11] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLModIdMappingEvent to mod reptilemod
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Reptile Mod took 0.000s
+[07:31:11] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLModIdMappingEvent to mod Baubles
+[07:31:11] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLModIdMappingEvent to mod Baubles
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Baubles took 0.000s
+[07:31:11] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLModIdMappingEvent to mod Thaumcraft
+[07:31:11] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLModIdMappingEvent to mod Thaumcraft
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Thaumcraft took 0.000s
+[07:31:11] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.007s
+[07:31:11] [Server thread/INFO] [FML/]: Applying holder lookups
+[07:31:11] [Server thread/INFO] [FML/]: Holder lookups applied
+[07:31:11] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[07:31:11] [Server thread/DEBUG] [FML/]: The fluid Thaumcraft:fluiddeath has been selected as the default fluid for fluiddeath
+[07:31:11] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[07:31:11] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[07:31:11] [Server thread/DEBUG] [FML/]: The fluid Thaumcraft:fluidpure has been selected as the default fluid for fluidpure
+[07:31:11] [Server thread/DEBUG] [FML/]: The fluid Thaumcraft:fluxgoo has been selected as the default fluid for fluxgoo
+[07:31:11] [Server thread/INFO] [FML/]: Loading dimension 0 (Installation 38) (net.minecraft.server.integrated.IntegratedServer@5c0099bc)
+[07:31:11] [Server thread/INFO] [FML/]: Loading dimension -42 (Installation 38) (net.minecraft.server.integrated.IntegratedServer@5c0099bc)
+[07:31:11] [Server thread/INFO] [FML/]: Loading dimension 1 (Installation 38) (net.minecraft.server.integrated.IntegratedServer@5c0099bc)
+[07:31:11] [Server thread/INFO] [FML/]: Loading dimension -1 (Installation 38) (net.minecraft.server.integrated.IntegratedServer@5c0099bc)
+[07:31:12] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[07:31:12] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.001s
+[07:31:12] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[07:31:12] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[07:31:12] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[07:31:12] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.003s
+[07:31:12] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLServerStartingEvent to mod TooManyItems
+[07:31:12] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLServerStartingEvent to mod TooManyItems
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - TooManyItems took 0.000s
+[07:31:12] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerStartingEvent to mod ComputerCraft
+[07:31:12] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerStartingEvent to mod ComputerCraft
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - ComputerCraft took 0.029s
+[07:31:12] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLServerStartingEvent to mod malisiscore
+[07:31:12] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLServerStartingEvent to mod malisiscore
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - MalisisCore took 0.000s
+[07:31:12] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLServerStartingEvent to mod malisisdoors
+[07:31:12] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLServerStartingEvent to mod malisisdoors
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Malisis' Doors took 0.001s
+[07:31:12] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLServerStartingEvent to mod ReiMinimap
+[07:31:12] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLServerStartingEvent to mod ReiMinimap
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Rei's Minimap took 0.000s
+[07:31:12] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLServerStartingEvent to mod reptilemod
+[07:31:12] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLServerStartingEvent to mod reptilemod
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Reptile Mod took 0.001s
+[07:31:12] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLServerStartingEvent to mod Baubles
+[07:31:12] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLServerStartingEvent to mod Baubles
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Baubles took 0.000s
+[07:31:12] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLServerStartingEvent to mod Thaumcraft
+[07:31:12] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLServerStartingEvent to mod Thaumcraft
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Thaumcraft took 0.007s
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.043s
+[07:31:12] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[07:31:12] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[07:31:12] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[07:31:12] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[07:31:12] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[07:31:12] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[07:31:12] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLServerStartedEvent to mod TooManyItems
+[07:31:12] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLServerStartedEvent to mod TooManyItems
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - TooManyItems took 0.000s
+[07:31:12] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerStartedEvent to mod ComputerCraft
+[07:31:12] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerStartedEvent to mod ComputerCraft
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - ComputerCraft took 0.000s
+[07:31:12] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLServerStartedEvent to mod malisiscore
+[07:31:12] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLServerStartedEvent to mod malisiscore
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - MalisisCore took 0.000s
+[07:31:12] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLServerStartedEvent to mod malisisdoors
+[07:31:12] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLServerStartedEvent to mod malisisdoors
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Malisis' Doors took 0.000s
+[07:31:12] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLServerStartedEvent to mod ReiMinimap
+[07:31:12] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLServerStartedEvent to mod ReiMinimap
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Rei's Minimap took 0.000s
+[07:31:12] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLServerStartedEvent to mod reptilemod
+[07:31:12] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLServerStartedEvent to mod reptilemod
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Reptile Mod took 0.000s
+[07:31:12] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLServerStartedEvent to mod Baubles
+[07:31:12] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLServerStartedEvent to mod Baubles
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Baubles took 0.000s
+[07:31:12] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLServerStartedEvent to mod Thaumcraft
+[07:31:12] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLServerStartedEvent to mod Thaumcraft
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Thaumcraft took 0.000s
+[07:31:12] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.004s
+[07:31:14] [Netty IO #1/INFO] [malisiscore/]: Found hooks for net.minecraft.network.NetHandlerPlayServer (nh)
+[07:31:14] [Netty Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[07:31:14] [Netty Client IO #0/TRACE] [FML/]: $ServerHello->FMLHandshakeClientState$2:HELLO
+[07:31:14] [Netty Client IO #0/INFO] [FML/]: Server protocol version 2
+[07:31:14] [Netty Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[07:31:14] [Netty IO #1/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[07:31:14] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[07:31:14] [Netty IO #1/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeServerState$2:HELLO
+[07:31:14] [Netty IO #1/INFO] [FML/]: Client attempting to join with 11 mods : ComputerCraft@1.75,malisiscore@1.7.10-0.14.3,ReiMinimap@1.7.10,Thaumcraft@4.2.3.5,FML@7.10.99.99,Forge@10.13.4.1558,malisisdoors@1.7.10-1.13.2,mcp@9.05,TooManyItems@1.7.10,Baubles@1.0.1.10,reptilemod@1.7.10
+[07:31:14] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[07:31:14] [Netty Client IO #0/TRACE] [FML/]: $ModList:11 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[07:31:14] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[07:31:14] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[07:31:14] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[07:31:14] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[07:31:14] [Netty Client IO #0/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[07:31:14] [Netty IO #1/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[07:31:14] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[07:31:14] [Client thread/DEBUG] [FML/]: The fluid Thaumcraft:fluiddeath has been selected as the default fluid for fluiddeath
+[07:31:14] [Client thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[07:31:14] [Client thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[07:31:14] [Client thread/DEBUG] [FML/]: The fluid Thaumcraft:fluidpure has been selected as the default fluid for fluidpure
+[07:31:14] [Client thread/DEBUG] [FML/]: The fluid Thaumcraft:fluxgoo has been selected as the default fluid for fluxgoo
+[07:31:14] [Client thread/INFO] [FML/]: [Client thread] Client side modded connection established
+[07:31:14] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[07:31:14] [Client thread/INFO] [THAUMCRAFT/]: Client received server config settings.
+[07:31:14] [Client thread/INFO] [THAUMCRAFT/]: CHEAT_SHEET[false], WARDED_STONE[true], MIRRORS[true], HARD_NODES[true], WUSS_MODE[false], RESEARCH_DIFFICULTY[0], ASPECT_TOTAL_CAP[100
+[07:31:15] [Client thread/WARN] [FML/]: =============================================================
+[07:31:15] [Client thread/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[07:31:15] [Client thread/WARN] [FML/]: Offendor: truetyper/TrueTypeFont.loadImage(Ljava/awt/image/BufferedImage;)I
+[07:31:15] [Client thread/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[07:31:15] [Client thread/WARN] [FML/]: =============================================================
+[07:31:16] [Client thread/INFO] [STDOUT/]: [truetyper.TrueTypeFont:<init>:94]: TrueTypeFont loaded: java.awt.Font[family=Dialog,name=Arial,style=plain,size=12] - AntiAlias = true
+[07:31:16] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ReiMinimap took 0.142s
+[07:31:37] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:32:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:32:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:33:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:34:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:35:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:35:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:36:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:37:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:38:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:38:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:39:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:40:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:41:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:41:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:42:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:43:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type # at line 1 : # Blender v2.70 (sub 0) OBJ File: 'rustyhatch.blend'
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type # at line 2 : # www.blender.org
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type mtllib at line 3 : mtllib rustyhatch.mtl
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type usemtl at line 86 : usemtl None
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type s at line 87 : s off
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type usemtl at line 219 : usemtl None_rusty_hatch.png.001
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type s at line 220 : s off
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type usemtl at line 456 : usemtl None_rusty_hatch_handle.png.004
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type s at line 457 : s off
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type usemtl at line 592 : usemtl None_rusty_hatch.png
+[07:43:22] [Client thread/DEBUG] [malisiscore/]: [ObjFileImporter] Skipped type s at line 593 : s off
+[07:44:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:44:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:45:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:46:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:47:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:47:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:48:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:49:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:50:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:50:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:51:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:52:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:53:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:53:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:54:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:55:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:56:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:56:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:57:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:58:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:59:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[07:59:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:00:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:01:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:02:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:02:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:03:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:04:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:05:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:05:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:06:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:07:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:08:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:08:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:09:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:10:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:11:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:11:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:12:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:13:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:14:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:14:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:15:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:16:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:17:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:17:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:18:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:19:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:20:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:20:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:21:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:22:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:23:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:23:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:24:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:25:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:26:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:26:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:27:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:28:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:29:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:29:45] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:30:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:31:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:32:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:32:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:32:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:33:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:33:19] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:33:51] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:34:36] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:35:21] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:36:03] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:36:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:37:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:37:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:38:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:39:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:40:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:40:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:41:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:42:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:43:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:43:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:44:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:45:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:46:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:46:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:47:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:48:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:48:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:49:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:50:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:51:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:51:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:52:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:53:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:54:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:54:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:55:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:56:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:57:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:57:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:58:40] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:59:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[08:59:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:00:16] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:01:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:01:46] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:02:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:03:16] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:04:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:04:46] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:05:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:06:16] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:07:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:07:46] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:08:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:09:16] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:10:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:10:46] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:11:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:12:16] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:13:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:13:46] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:14:31] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:14:56] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:17:46] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:18:25] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:18:26] [Netty Client IO #0/INFO] [THAUMCRAFT/]: Restoring client configs.
+[09:18:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[09:18:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[09:18:26] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[09:18:26] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[09:18:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[09:18:26] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[09:18:26] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLServerStoppingEvent to mod TooManyItems
+[09:18:26] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLServerStoppingEvent to mod TooManyItems
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - TooManyItems took 0.000s
+[09:18:26] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerStoppingEvent to mod ComputerCraft
+[09:18:26] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerStoppingEvent to mod ComputerCraft
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - ComputerCraft took 0.000s
+[09:18:26] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLServerStoppingEvent to mod malisiscore
+[09:18:26] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLServerStoppingEvent to mod malisiscore
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - MalisisCore took 0.000s
+[09:18:26] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLServerStoppingEvent to mod malisisdoors
+[09:18:26] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLServerStoppingEvent to mod malisisdoors
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Malisis' Doors took 0.000s
+[09:18:26] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLServerStoppingEvent to mod ReiMinimap
+[09:18:26] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLServerStoppingEvent to mod ReiMinimap
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Rei's Minimap took 0.000s
+[09:18:26] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLServerStoppingEvent to mod reptilemod
+[09:18:26] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLServerStoppingEvent to mod reptilemod
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Reptile Mod took 0.000s
+[09:18:26] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLServerStoppingEvent to mod Baubles
+[09:18:26] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLServerStoppingEvent to mod Baubles
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Baubles took 0.001s
+[09:18:26] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLServerStoppingEvent to mod Thaumcraft
+[09:18:26] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLServerStoppingEvent to mod Thaumcraft
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Thaumcraft took 0.001s
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.003s
+[09:18:26] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save Installation 38
+[09:18:26] [Server thread/INFO] [FML/]: Unloading dimension 0
+[09:18:26] [Server thread/INFO] [FML/]: Unloading dimension -1
+[09:18:26] [Server thread/INFO] [FML/]: Unloading dimension 1
+[09:18:26] [Server thread/INFO] [FML/]: Unloading dimension -42
+[09:18:26] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[09:18:26] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[09:18:26] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[09:18:26] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[09:18:26] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[09:18:26] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[09:18:26] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[09:18:27] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.335s
+[09:18:27] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLModIdMappingEvent to mod TooManyItems
+[09:18:27] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLModIdMappingEvent to mod TooManyItems
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TooManyItems took 0.000s
+[09:18:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLModIdMappingEvent to mod ComputerCraft
+[09:18:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLModIdMappingEvent to mod ComputerCraft
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ComputerCraft took 0.007s
+[09:18:27] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLModIdMappingEvent to mod malisiscore
+[09:18:27] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLModIdMappingEvent to mod malisiscore
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - MalisisCore took 0.000s
+[09:18:27] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLModIdMappingEvent to mod malisisdoors
+[09:18:27] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLModIdMappingEvent to mod malisisdoors
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Malisis' Doors took 0.003s
+[09:18:27] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLModIdMappingEvent to mod ReiMinimap
+[09:18:27] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLModIdMappingEvent to mod ReiMinimap
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Rei's Minimap took 0.000s
+[09:18:27] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLModIdMappingEvent to mod reptilemod
+[09:18:27] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLModIdMappingEvent to mod reptilemod
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Reptile Mod took 0.001s
+[09:18:27] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLModIdMappingEvent to mod Baubles
+[09:18:27] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLModIdMappingEvent to mod Baubles
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Baubles took 0.001s
+[09:18:27] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLModIdMappingEvent to mod Thaumcraft
+[09:18:27] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLModIdMappingEvent to mod Thaumcraft
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Thaumcraft took 0.001s
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.349s
+[09:18:27] [Server thread/INFO] [FML/]: Applying holder lookups
+[09:18:27] [Server thread/INFO] [FML/]: Holder lookups applied
+[09:18:27] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[09:18:27] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[09:18:27] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[09:18:27] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.002s
+[09:18:27] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[09:18:27] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[09:18:27] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sending event FMLServerStoppedEvent to mod TooManyItems
+[09:18:27] [Server thread/TRACE] [TooManyItems/TooManyItems]: Sent event FMLServerStoppedEvent to mod TooManyItems
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TooManyItems took 0.000s
+[09:18:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sending event FMLServerStoppedEvent to mod ComputerCraft
+[09:18:27] [Server thread/TRACE] [ComputerCraft/ComputerCraft]: Sent event FMLServerStoppedEvent to mod ComputerCraft
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - ComputerCraft took 0.001s
+[09:18:27] [Server thread/TRACE] [malisiscore/malisiscore]: Sending event FMLServerStoppedEvent to mod malisiscore
+[09:18:27] [Server thread/TRACE] [malisiscore/malisiscore]: Sent event FMLServerStoppedEvent to mod malisiscore
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - MalisisCore took 0.000s
+[09:18:27] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sending event FMLServerStoppedEvent to mod malisisdoors
+[09:18:27] [Server thread/TRACE] [malisisdoors/malisisdoors]: Sent event FMLServerStoppedEvent to mod malisisdoors
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Malisis' Doors took 0.000s
+[09:18:27] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sending event FMLServerStoppedEvent to mod ReiMinimap
+[09:18:27] [Server thread/TRACE] [ReiMinimap/ReiMinimap]: Sent event FMLServerStoppedEvent to mod ReiMinimap
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Rei's Minimap took 0.000s
+[09:18:27] [Server thread/TRACE] [reptilemod/reptilemod]: Sending event FMLServerStoppedEvent to mod reptilemod
+[09:18:27] [Server thread/TRACE] [reptilemod/reptilemod]: Sent event FMLServerStoppedEvent to mod reptilemod
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Reptile Mod took 0.000s
+[09:18:27] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLServerStoppedEvent to mod Baubles
+[09:18:27] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLServerStoppedEvent to mod Baubles
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Baubles took 0.001s
+[09:18:27] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLServerStoppedEvent to mod Thaumcraft
+[09:18:27] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLServerStoppedEvent to mod Thaumcraft
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Thaumcraft took 0.000s
+[09:18:27] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.006s
+[09:18:34] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[09:18:34] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[09:18:35] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[09:18:35] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 

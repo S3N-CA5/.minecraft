@@ -1,0 +1,32 @@
+[10:19:35] [main/INFO]: Setting user: Sen_Tesla
+[10:19:37] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:19:38] [Client thread/ERROR]: Couldn't initialize twitch stream
+[10:19:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ComputerCraft, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:Malisis' Doors, FMLFileResourcePack:Rei's Minimap, FMLFileResourcePack:Reptile Mod, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Baubles
+[10:19:58] [Sound Library Loader/INFO]: Sound engine started
+[10:19:58] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[10:19:58] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[10:20:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ComputerCraft, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:Malisis' Doors, FMLFileResourcePack:Rei's Minimap, FMLFileResourcePack:Reptile Mod, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Baubles
+[10:20:02] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[10:20:02] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[10:20:03] [Sound Library Loader/INFO]: Sound engine started
+[10:20:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:20:09] [Server thread/INFO]: Generating keypair
+[10:20:09] [Server thread/INFO]: Preparing start region for level 0
+[10:20:10] [Server thread/INFO]: Preparing spawn area: 77%
+[10:20:10] [Server thread/INFO]: Changing view distance to 7, from 10
+[10:20:12] [Server thread/INFO]: Sen_Tesla[local:E:aac4700d] logged in with entity id 47 at (-641.6492450111499, 63.0, 166.6854331999435)
+[10:20:12] [Server thread/INFO]: Sen_Tesla joined the game
+[10:20:14] [Client thread/INFO]: [CHAT] §e[Rei's Minimap] 1 Waypoints loaded for Installation 38
+[10:21:08] [Server thread/INFO]: Saving and pausing game...
+[10:21:08] [Server thread/INFO]: Saving chunks for level 'Installation 38'/Overworld
+[10:21:08] [Server thread/INFO]: Saving chunks for level 'Installation 38'/Nether
+[10:21:08] [Server thread/INFO]: Saving chunks for level 'Installation 38'/The End
+[10:21:08] [Server thread/INFO]: Saving chunks for level 'Installation 38'/The Outer Lands
+[10:21:09] [Server thread/INFO]: Stopping server
+[10:21:09] [Server thread/INFO]: Saving players
+[10:21:09] [Server thread/INFO]: Saving worlds
+[10:21:09] [Server thread/INFO]: Saving chunks for level 'Installation 38'/Overworld
+[10:21:09] [Server thread/INFO]: Saving chunks for level 'Installation 38'/Nether
+[10:21:09] [Server thread/INFO]: Saving chunks for level 'Installation 38'/The End
+[10:21:09] [Server thread/INFO]: Saving chunks for level 'Installation 38'/The Outer Lands
+[10:21:10] [Client thread/INFO]: Stopping!

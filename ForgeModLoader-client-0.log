@@ -1,0 +1,20 @@
+2016-11-24 15:24:50 [INFO] [ForgeModLoader] Forge Mod Loader version 6.4.49.965 for Minecraft 1.6.4 loading
+2016-11-24 15:24:50 [INFO] [ForgeModLoader] Java is OpenJDK 64-Bit Server VM, version 1.8.0_03-Ubuntu, running on Linux:amd64:4.4.0-21-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Java classpath at launch is /home/sen_cas/.minecraft/libraries/net/minecraftforge/minecraftforge/9.11.1.965/minecraftforge-9.11.1.965.jar:/home/sen_cas/.minecraft/libraries/net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar:/home/sen_cas/.minecraft/libraries/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar:/home/sen_cas/.minecraft/libraries/org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.jar:/home/sen_cas/.minecraft/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar:/home/sen_cas/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar:/home/sen_cas/.minecraft/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar:/home/sen_cas/.minecraft/libraries/argo/argo/2.25_fixed/argo-2.25_fixed.jar:/home/sen_cas/.minecraft/libraries/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar:/home/sen_cas/.minecraft/libraries/com/google/guava/guava/14.0/guava-14.0.jar:/home/sen_cas/.minecraft/libraries/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/home/sen_cas/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/sen_cas/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar:/home/sen_cas/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar:/home/sen_cas/.minecraft/libraries/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar:/home/sen_cas/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0.jar:/home/sen_cas/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0.jar:/home/sen_cas/.minecraft/versions/1.6.4-Forge9.11.1.965/1.6.4-Forge9.11.1.965.jar
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Java library path at launch is /home/sen_cas/.minecraft/versions/1.6.4-Forge9.11.1.965/1.6.4-Forge9.11.1.965-natives-3259469219189
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Enabling runtime deobfuscation
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Instantiating coremod class FMLCorePlugin
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Enqueued coremod FMLCorePlugin
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Instantiating coremod class FMLForgePlugin
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Enqueued coremod FMLForgePlugin
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] All fundamental core mods are successfully located
+2016-11-24 15:24:50 [FINE] [ForgeModLoader] Discovering coremods
+2016-11-24 15:24:50 [INFO] [ForgeModLoader] Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+2016-11-24 15:24:50 [INFO] [ForgeModLoader] Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+2016-11-24 15:24:50 [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+2016-11-24 15:24:50 [SEVERE] [ForgeModLoader] Unable to launch
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:901)
+	at java.util.ArrayList$Itr.remove(ArrayList.java:865)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:114)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:27)
